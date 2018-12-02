@@ -13,7 +13,7 @@ body {
     margin: 20px auto 62px auto;
     background-color: white;
     padding: 0 0 10px 0;
-   
+
 }
 
 .navContent {
@@ -35,7 +35,20 @@ ul {
 
 li {
     float: right;
-    
+
+}
+
+.withRightBorder {
+    border-right: 2px solid #cccccc;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.withoutRightBorder {
+    border-right: 2px solid #ffffff;
+    padding: 0 20px;
+    margin-top: 20px;
+
 }
 
 li a {
@@ -43,18 +56,18 @@ li a {
     color: #666;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .logo {
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 16px;
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
-   
+
 }
 
 
@@ -97,7 +110,8 @@ form {
     margin: 20px;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -130,14 +144,78 @@ li a.active {
 } */
 
 
-  
-  .row {
-    display: flex;
-    padding: 0 4px;
-  }
-  
-  .row img {
-    margin-top: 8px;
-    /* vertical-align: middle; */
-  }
-  
+
+
+
+.wrapper {
+    width: 70%;
+    height: 100%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 20px;
+    margin-bottom: 62px;
+    margin-left: 10px;
+    /* the following line would center, but that was not the assignment */
+    /* margin: 20px auto 62px auto; */
+}
+
+.box {
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.banner {
+    background-color: #4aaaa5;
+    padding: 3px;
+    margin: 185px -20px 20px -20px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+
+}
+
+.Betty {
+    background-image: url("/Users/uwcodeschool/Desktop/Week_01/Basic-Portfolio/images/Betty_Button.jpg");
+    background-size: cover;
+    width: 205px;
+    height: 205px;
+    margin: 10px 0 0 10px;
+}
+
+.Archie {
+    background-image: url("/Users/uwcodeschool/Desktop/Week_01/Basic-Portfolio/images/Archie_Button.jpg");
+    background-size: cover;
+    width: 205px;
+    height: 205px;
+    margin: 10px 0 0 10px;
+}
+
+
+.Jughead {
+    background-image: url("/Users/uwcodeschool/Desktop/Week_01/Basic-Portfolio/images/Jughead_Button.jpg");
+    background-size: cover;
+    width: 205px;
+    height: 205px;
+    margin: 10px 0 0 10px;
+}
+
+
+.Veronica {
+    background-image: url("/Users/uwcodeschool/Desktop/Week_01/Basic-Portfolio/images/Veronica_Button.jpg");
+    background-size: cover;
+    width: 205px;
+    height: 205px;
+    margin: 10px 0 0 10px;
+}
+
+
+.Reggie {
+    background-image: url("/Users/uwcodeschool/Desktop/Week_01/Basic-Portfolio/images/Reggie_Button.jpg");
+    background-size: cover;
+    width: 205px;
+    height: 205px;
+    margin: 10px 0 0 10px;
+}
