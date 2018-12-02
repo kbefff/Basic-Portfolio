@@ -128,3 +128,16 @@ li a.active {
     color: white;
     background-color: #4CAF50;
 } */
+
+
+  
+  .row {
+    display: flex;
+    padding: 0 4px;
+  }
+  
+  .row img {
+    margin-top: 8px;
+    /* vertical-align: middle; */
+  }
+  
