@@ -1,3 +1,8 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -6,6 +11,13 @@ body {
     background-color: #777777;
     /* width: 960px; */
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainWrapper {
+    flex: 1 0 auto;
 }
 
 .mainContent {
@@ -63,7 +75,7 @@ li a {
 
 li a:hover:not(.active) {
     background-color: #4aaaa5;
-   
+
 }
 
 
@@ -102,15 +114,15 @@ p {
 
 footer {
     color: #ffffff;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 20px 0px 5px 0px;
+    padding: 20px 0px 20px 0px;
     border-top: 8px solid #4aaaa5;
     font-size: 12px;
     background-color: #777;
+    flex-shrink: 0;
 }
 
 form {
