@@ -94,7 +94,6 @@ li a:hover:not(.active) {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    /* margin: 10px; */
     padding: 20px 0px;
     margin: 20px;
     border-bottom: 3px solid #cccccc;
@@ -106,7 +105,6 @@ img {
 }
 
 p {
-    /* padding: 10px; */
     margin: 20px;
     line-height: 30px;
 
@@ -155,15 +153,10 @@ input[type=submit]:hover {
 }
 
 
-
-
-
-
 .wrapper {
     display: grid;
     grid-template-columns: 210px 210px;
     grid-auto-rows: 210px;
-    /* grid-template-columns: repeat(auto-fill, minmax(210px, 2fr)); */
     grid-gap: 10px;
   
   }
@@ -171,96 +164,17 @@ input[type=submit]:hover {
   .box {
     position: relative;
     justify-content: center;
-    /* overflow: hidden; */
-        /* icons extend past the boxes. Hididng overflow fixes this. */
   }
   
   .icon {
     height: 100%;
-    /* width: 200px; */
-    /* object-fit: cover; */
-   
   }
   
   p.banner {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* width: 170px; */
-    /* padding: 5px 10px 5px 20px; */
     background-color: #4aaaa5;
     color: #fff;
   }
    
-/* .wrapper {
-    width: 70%;
-    height: 100%;
-    display: grid;
-    grid-gap: 2%;
-    grid-template-columns: repeat(2, 50%);
-    margin-top: 20px;
-    margin-bottom: 62px;
-    margin-left: 10px; */
-    /* the following line would center, but that was not the assignment */
-    /* margin: 20px auto 62px auto; */
-/* }
-
-.box {
-    color: #fff;
-    padding: 20px;
-    font-size: 150%;
-
-}
-
-.banner {
-    background-color: #4aaaa5;
-    padding: 3px;
-    margin: 185px -20px 20px -20px;
-    text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-
-
-}
-
-.Betty {
-    background-image: url("../images/Betty_Button.jpg");
-    background-size: cover;
-    width: 205px;
-    height: 205px;
-    margin: 10px 0 0 10px;
-}
-
-.Archie {
-    background-image: url("../images/Archie_Button.jpg");
-    background-size: cover;
-    width: 205px;
-    height: 205px;
-    margin: 10px 0 0 10px;
-}
-
-
-.Jughead {
-    background-image: url("../images/Jughead_Button.jpg");
-    background-size: cover;
-    width: 205px;
-    height: 205px;
-    margin: 10px 0 0 10px;
-}
-
-
-.Veronica {
-    background-image: url("../images/Veronica_Button.jpg");
-    background-size: cover;
-    width: 205px;
-    height: 205px;
-    margin: 10px 0 0 10px;
-}
-
-
-.Reggie {
-    background-image: url("../images/Reggie_Button.jpg");
-    background-size: cover;
-    width: 205px;
-    height: 205px;
-    margin: 10px 0 0 10px;
-} */
