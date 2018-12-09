@@ -9,7 +9,6 @@ body {
     background-image: url("../images/bananas.png");
     background-repeat: repeat;
     background-color: #777777;
-    /* width: 960px; */
     font-size: 18px;
     display: flex;
     flex-direction: column;
@@ -73,7 +72,7 @@ li a {
 
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #4aaaa5;
 
 }
@@ -94,7 +93,6 @@ li a:hover:not(.active) {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    /* margin: 10px; */
     padding: 20px 0px;
     margin: 20px;
     border-bottom: 3px solid #cccccc;
@@ -106,10 +104,8 @@ img {
 }
 
 p {
-    /* padding: 10px; */
     margin: 20px;
     line-height: 30px;
-
 }
 
 footer {
