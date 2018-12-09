@@ -60,21 +60,18 @@ li {
     border-right: 2px solid #ffffff;
     padding: 0 20px;
     margin-top: 20px;
-
 }
 
 li a {
     display: block;
     color: #666666;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
+    text-decoration: none;  
 }
+
 
 li a:hover {
     background-color: #4aaaa5;
-
 }
 
 
@@ -86,7 +83,6 @@ li a:hover {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
-
 }
 
 
